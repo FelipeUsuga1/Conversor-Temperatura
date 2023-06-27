@@ -151,7 +151,7 @@ namespace Punto1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.DarkMagenta;
+            this.BackColor = System.Drawing.Color.MediumSlateBlue;
             this.ClientSize = new System.Drawing.Size(698, 321);
             this.Controls.Add(this.btnConvertir);
             this.Controls.Add(this.btnTerminar);
