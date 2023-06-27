@@ -44,19 +44,19 @@ namespace Punto1
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(212, 25);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(188, 19);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(218, 20);
+            this.label1.Size = new System.Drawing.Size(293, 25);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Conversor de temperatura";
+            this.label1.Text = "Conversor de Temperatura";
             // 
             // txtTempEnt
             // 
             this.txtTempEnt.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTempEnt.Location = new System.Drawing.Point(216, 106);
+            this.txtTempEnt.Location = new System.Drawing.Point(193, 106);
             this.txtTempEnt.Name = "txtTempEnt";
-            this.txtTempEnt.Size = new System.Drawing.Size(98, 22);
+            this.txtTempEnt.Size = new System.Drawing.Size(121, 22);
             this.txtTempEnt.TabIndex = 1;
             // 
             // cbTipTempEnt
@@ -90,9 +90,9 @@ namespace Punto1
             // lbTempSal
             // 
             this.lbTempSal.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lbTempSal.Location = new System.Drawing.Point(389, 102);
+            this.lbTempSal.Location = new System.Drawing.Point(389, 106);
             this.lbTempSal.Name = "lbTempSal";
-            this.lbTempSal.Size = new System.Drawing.Size(100, 26);
+            this.lbTempSal.Size = new System.Drawing.Size(124, 22);
             this.lbTempSal.TabIndex = 4;
             // 
             // label2
@@ -151,6 +151,7 @@ namespace Punto1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.DarkMagenta;
             this.ClientSize = new System.Drawing.Size(698, 321);
             this.Controls.Add(this.btnConvertir);
             this.Controls.Add(this.btnTerminar);
